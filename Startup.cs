@@ -27,7 +27,7 @@ namespace Salak_Gergely_Lab8
         {
             services.AddRazorPages();
 
-            services.AddDbContext<Livia_Bud_Lab8Context>(options =>
+            services.AddDbContext<Salak_Gergely_Lab8Context>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("Salak_Gergely_Lab8Context")));
         }
 
